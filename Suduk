@@ -1,0 +1,29 @@
+sub sud()
+
+For i = 1 To 9
+ 
+Let Negative = 0
+ 
+For j = 1 To 9
+ 
+
+' ref= 123456789
+' cells= 41982_576
+
+If ref(i) <> Cells(1, j).Value Then
+counter = 0
+Else: counter = 1
+End If
+ 
+Next j
+ 
+If Negative = 1 Then
+MsgBox Cells(1, i).Value & "  " & ref(i)
+End If
+ 
+Next i
+ 
+End If
+ 
+ end sub
+ 
